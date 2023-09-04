@@ -14,6 +14,9 @@ class UnitConverter:
         "volume": {
             "m3": 1.0,
             "l":1e-3,
+            "liter":1e-3,
+            "cc":1e-3,
+            "cm3":1e-3,
             "e3m3": 1e3,
             "e6m3": 1e6,
             "us-gal": 3.785411784e-3,
