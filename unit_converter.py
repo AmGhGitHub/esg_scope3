@@ -8,17 +8,17 @@ class UnitConverter:
             "kg": 1.0,
             "gr": 1e-3,
             "lb": 0.45359237,
-            "metric-ton": 1e3,
+            "metric-ton": 1.0e3,
             "ton": 907.18474,
         },
         "volume": {
             "m3": 1.0,
-            "l":1e-3,
-            "liter":1e-3,
+            "l":1.0e-3,
+            "liter":1.0e-3,
             "cc":1.0e-6,
             "cm3":1.0e-6,
-            "e3m3": 1e3,
-            "e6m3": 1e6,
+            "e3m3": 1.0e3,
+            "e6m3": 1.0e6,
             "us-gal": 3.785411784e-3,
             "bbl": 1.589872949e-1,
             "mbbl": 1.589872949e2,
@@ -30,9 +30,9 @@ class UnitConverter:
         },
         "energy": {
             "j": 1.0,
-            "kj": 1e3,
-            "mj": 1e6,
-            "gj": 1e9,
+            "kj": 1.0e3,
+            "mj": 1.0e6,
+            "gj": 1.0e9,
             "cal": 4.184,
             "kcal": 4184.0,
             "btu": 1055.06,
@@ -44,9 +44,9 @@ class UnitConverter:
         },
         "length": {
             "m": 1.0,  # meters
-            "km": 1e3,  # kilometers
-            "cm": 1e-2,  # centimeters
-            "mm": 1e-3,  # millimeters
+            "km": 1.0e3,  # kilometers
+            "cm": 1.0e-2,  # centimeters
+            "mm": 1.0e-3,  # millimeters
             "ft": 0.3048,  # feet
             "in": 0.0254,  # inches
             "yd": 0.9144,  # yards
@@ -58,8 +58,8 @@ class UnitConverter:
         "pressure": {
             "kpa": 1.0,
             "psia": 6.89475729316836,
-            "mpa": 1e3,
-            "bar": 1e2,
+            "mpa": 1.0e3,
+            "bar": 1.0e2,
             "atm": 101.325,
             "mmhg": 0.133322368421053,
             "inh2o": 0.24884,
